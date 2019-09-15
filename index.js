@@ -1,1 +1,0 @@
-"use strict";function _interopDefault(e){return e&&"object"==typeof e&&"default"in e?e.default:e}var React=_interopDefault(require("react")),Dummy=function(e){return React.createElement("div",null,React.createElement("h1",null,"WTF yo"))};module.exports=Dummy;
