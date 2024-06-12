@@ -1,30 +1,42 @@
 {
-  "name": "react-dsi18n",
-  "version": "1.0.3",
-  "description": "Dead simple i18n for React",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/skflowne/react-dsi18n.git"
-  },
-  "keywords": [
-    "i18n",
-    "intl",
-    "react"
-  ],
-  "author": "Geoffrey Hug",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/skflowne/react-dsi18n/issues"
-  },
-  "homepage": "https://github.com/skflowne/react-dsi18n#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.6.0",
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0"
-  }
+    "name": "react-dsi18n",
+    "version": "1.0.3",
+    "description": "Dead simple i18n for React",
+    "main": "index.js",
+    "scripts": {
+        "start": "rollup -c -w",
+        "build": "rollup -c",
+        "dev": "babel src --out-file=index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/skflowne/react-dsi18n.git"
+    },
+    "keywords": [
+        "i18n",
+        "intl",
+        "react"
+    ],
+    "author": "Geoffrey Hug",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/skflowne/react-dsi18n/issues"
+    },
+    "homepage": "https://github.com/skflowne/react-dsi18n#readme",
+    "peerDependencies": {
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.6.0",
+        "@babel/preset-react": "^7.0.0",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "rollup": "^1.21.3",
+        "rollup-plugin-babel": "^4.3.3",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-terser": "^5.1.2"
+    }
 }
