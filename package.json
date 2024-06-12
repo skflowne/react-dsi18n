@@ -1,0 +1,30 @@
+{
+  "name": "react-dsi18n",
+  "version": "1.0.3",
+  "description": "Dead simple i18n for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skflowne/react-dsi18n.git"
+  },
+  "keywords": [
+    "i18n",
+    "intl",
+    "react"
+  ],
+  "author": "Geoffrey Hug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skflowne/react-dsi18n/issues"
+  },
+  "homepage": "https://github.com/skflowne/react-dsi18n#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
