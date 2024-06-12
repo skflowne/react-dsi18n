@@ -1,14 +1,19 @@
 import React from "react"
 import "./App.css"
 
-import DummyComponent from "react-dsi18n"
+import Dsi18nProvider from "react-dsi18n"
+import translations from "./locales"
+import Content from "./components/Content"
 
 const App = props => {
     return (
-        <div>
-            <h1>Example</h1>
-            <DummyComponent />
-        </div>
+        <Dsi18nProvider
+            translations={translations}
+            locale={navigator.language}
+            fallback="en"
+        >
+            <Content />
+        </Dsi18nProvider>
     )
 }
 
